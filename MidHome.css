@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body img.homeBackVirus {
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    left: -100px;
+    top: 173vh;
+    z-index: -1;
+}
+
+.homeMid h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Carter One', cursive;
+}
+
+.homeMid h1.DoHelp {
+    text-shadow: 2px 0 0 #F49CB5, -2px 0 0 #F49CB5, 0 2px 0 #F49CB5, 0 -2px 0 #F49CB5, 2px 2px #F49CB5, -2px -2px 0 #F49CB5, 2px -2px 0 #fff, -2px 2px 0 #F49CB5;
+}
+
+.homeMid h1.WantHelp {
+    text-shadow: 2px 0 0 #99D9FF, -2px 0 0 #99D9FF, 0 2px 0 #99D9FF, 0 -2px 0 #99D9FF, 2px 2px #99D9FF, -2px -2px 0 #99D9FF, 2px -2px 0 #fff, -2px 2px 0 #99D9FF;
+}
+
+.homeMid .banner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.homeMid .banner-container img {
+    width: 60%;
+    height: 420px;
+    border-radius: 3px;
+    border-radius: 3px;
+    align-items: center;
+    box-shadow: 0 2px 4px 2px rgba(34, 0, 51, .04), 0 3px 2px 3px rgba(7, 48, 114, .06), 0 3px 1px -2px rgba(14, 13, 26, .06);
+}
+
+.homeMid .banner-container .paras {
+    width: 38%;
+    height: 300px;
+    align-self: center;
+}
+
+.homeMid .banner-container .paras p {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}

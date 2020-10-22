@@ -5,7 +5,9 @@
 
     <title>Covid Warriors</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./HomeTop.css">
+    <link rel="stylesheet" href="./MidHome.css">
+    <link rel="stylesheet" href="aboutHome.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -20,13 +22,9 @@
 
 
     <header class="main-header">
-
         <nav class="navbar-top navbar">
-
             <a href="index.html" class="logo">
-
                 <img src="./logo3.PNG" id="logo" alt="Project Target">
-
             </a>
 
             <ul class="navbar-social-links">
@@ -34,59 +32,48 @@
                 <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
-
         </nav>
 
     </header>
 
     <header class="bottom-header">
-
         <nav class="navbar-bottom navbar">
-
             <button class="menu-toggle toggler">
 					<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 125"><g transform="translate(0,-952.36218)"><path d="m 16,979.36218 c -1.65685,0 -3,1.3431 -3,3 0,1.6568 1.34315,3 3,3 l 68,0 c 1.65685,0 3,-1.3432 3,-3 0,-1.6569 -1.34315,-3 -3,-3 z m 0,20 c -1.65685,0 -3,1.34312 -3,3.00002 0,1.6568 1.34315,3 3,3 l 68,0 c 1.65685,0 3,-1.3432 3,-3 0,-1.6569 -1.34315,-3.00002 -3,-3.00002 z m 0,20.00002 c -1.65685,0 -3,1.3431 -3,3 0,1.6568 1.34315,3 3,3 l 68,0 c 1.65685,0 3,-1.3432 3,-3 0,-1.6569 -1.34315,-3 -3,-3 z" style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;enable-background:accumulate;" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/></g></svg>
-				</button>
+                </button>
 
             <ul class="nav-links">
-
                 <div class="toggler cancel-btn">
                     <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 125"><g transform="translate(0,-952.36218)"><path style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.99999976000000010;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" d="M 15 8 C 13.542451 8 12.003446 8.50749 10.59375 9.625 C 9.1840537 10.74251 8 12.64176 8 15 L 8 85 C 8 87.3583 9.1840606 89.2575 10.59375 90.375 C 12.003439 91.4925 13.542421 92 15 92 L 85 92 C 86.457579 92 87.996548 91.4925 89.40625 90.375 C 90.815952 89.2575 92 87.3583 92 85 L 92 15 C 92 12.64175 90.815958 10.74251 89.40625 9.625 C 87.996542 8.50749 86.457549 8 85 8 C 61.83749 7.99997 38.162516 7.99994 15 8 z M 15 12 C 38.162506 11.99994 61.83749 11.99997 85 12 C 85.325201 12 86.292896 12.23901 86.9375 12.75 C 87.582104 13.26099 88 13.8723 88 15 L 88 85 C 88 86.1277 87.582111 86.70765 86.9375 87.21875 C 86.292889 87.72975 85.325171 88 85 88 L 15 88 C 14.674829 88 13.707098 87.72975 13.0625 87.21875 C 12.417902 86.70765 12 86.1277 12 85 L 12 15 C 12 13.87229 12.417909 13.26099 13.0625 12.75 C 13.707091 12.23901 14.674799 12 15 12 z M 27.78125 25.96875 A 2.0001999 2.0001999 0 0 0 26.59375 29.40625 L 47.1875 50 L 26.59375 70.5625 A 2.0001999 2.0001999 0 1 0 29.40625 73.40625 L 50 52.8125 L 70.59375 73.40625 A 2.0001999 2.0001999 0 1 0 73.40625 70.5625 L 52.8125 50 L 73.40625 29.40625 A 2.0001999 2.0001999 0 0 0 71.75 25.96875 A 2.0001999 2.0001999 0 0 0 70.59375 26.5625 L 50 47.15625 L 29.40625 26.5625 A 2.0001999 2.0001999 0 0 0 27.78125 25.96875 z " transform="translate(0,952.36218)"/></g></svg>
                 </div>
-
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="explore.html">About COVID-19</a></li>
+                <li><a href="index.html">Get Help</a></li>
+                <li><a href="helpothers.html">Help Others</a></li>
                 <li><a href="./tracker/tracker.html">Track</a></li>
                 <li><a href="contact.html">Donate</a></li>
             </ul>
-
-
-
-
-
         </nav>
-
     </header>
 
+    <img class="homeBackVirus" src="covid-virus.png">
+
+
     <main class="content-wrapper">
-
         <header class="hero-header">
-
             <div class="intro-sec">
 
             </div>
-
             <div class="home-hiw">
-
                 <ul class="block-list">
-                    <h2>About CovidWarriors</h2>
+                    <h2>About CovidWarrior</h2>
                     <li>
                         <div class="icon-hldr">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 27 28.59375" style="enable-background:new 0 0 27 22.875;" xml:space="preserve">
 									<g>
 									<path d="M26.833,21.373C26.939,21.278,27,21.142,27,21V4c0-0.234-0.163-0.438-0.392-0.488C26.572,3.504,26.351,3.456,26,3.387V17.5   c0,0.827-0.673,1.5-1.5,1.5c-0.009,0-0.147,0.001-0.373,0.006l2.475,2.475C26.686,21.464,26.768,21.432,26.833,21.373z"/><path d="M0.555,21.497C0.578,21.495,2.812,21.25,5.5,21.25c3.521,0,6.21,0.414,7.776,1.197c0.071,0.035,0.147,0.053,0.224,0.053   c0.077,0,0.153-0.018,0.224-0.053c1.566-0.783,4.255-1.197,7.776-1.197c0.217,0,0.425,0.004,0.635,0.007l-1.955-1.955   c-2.018,0.249-4.334,0.703-6.009,1.541C13.964,20.945,13.732,21,13.5,21c-0.232,0-0.464-0.055-0.671-0.158   C9.208,19.031,2.566,19,2.499,19C1.673,19,1,18.327,1,17.5V3.387C0.649,3.456,0.428,3.504,0.392,3.512C0.163,3.563,0,3.766,0,4v17   c0,0.142,0.06,0.278,0.166,0.373C0.273,21.468,0.414,21.514,0.555,21.497z"/><path d="M20.5,10.5c0,1.39-0.409,2.682-1.108,3.771l3.771,3.771C23.967,18.003,24.481,18,24.5,18c0.276,0,0.5-0.224,0.5-0.5v-17   C25,0.224,24.776,0,24.5,0C24.226,0,18.102,0.026,14,1.731v1.794C17.632,3.783,20.501,6.804,20.5,10.5z"/><path d="M14,17.475V17.5h-0.501H13v-0.025c-3.633-0.257-6.501-3.276-6.5-6.975c0-3.697,2.868-6.718,6.5-6.975V1.731   C8.898,0.026,2.774,0,2.5,0C2.224,0,2,0.224,2,0.5v17C2,17.776,2.224,18,2.5,18c0.069,0,6.93,0.024,10.776,1.947   C13.347,19.982,13.423,20,13.5,20c0.077,0,0.153-0.018,0.224-0.053c1.576-0.788,3.655-1.254,5.569-1.533l-2.022-2.022   C16.314,17.005,15.2,17.39,14,17.475z"/><path d="M25.167,22.875l0.707-0.707l-7.794-7.795c0.885-1.045,1.421-2.396,1.42-3.873c0-3.314-2.687-6-6-6   c-3.315,0-5.999,2.687-6,6c0,3.314,2.685,6,6,6c1.477,0,2.827-0.536,3.873-1.42L25.167,22.875z"/></g></svg>
                         </div>
-                        Support COVID workers by donating
+                        Donate to PM Relief fund
                     </li>
                     <li>
                         <div class="icon-hldr">
@@ -101,14 +88,63 @@
                         </div>
                         Track Covid Around you
                     </li>
-
                 </ul>
-
             </div>
-
         </header>
 
-        <section></section>
+        <section class="homeMid">
+            <h1 class="DoHelp">Be A Covid Warrior</h1>
+            <div class="banner-container">
+                <img src="DoHelp.jpg" style=" margin-right: 1rem;">
+                <div class="paras">
+                    <p>Survived COVID-19? Help others to do the same by donating the Plasma</p>
+                    <p>Help those who can't study for their boards due to non-availability of teachers at online platforms </p>
+                    <a href="#" style="float: right; color:rgb(45, 167, 238)">Be a covid warrior >></a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="homeMid">
+
+            <h1 class="WantHelp">Want Help, Ask India</h1>
+            <div class="banner-container">
+                <div class="paras">
+                    <p>Ask India, for help and be a covid survivor.. Just like BABA KA DHABA </p>
+                    <p>Create a request, explain your problem with videos & images, add your contact details and wait for the respons</p>
+                    <a href="#" style="float: left; color:rgb(45, 167, 238)">Ask for help >></a>
+                </div>
+                <img src="WantHelp.jpg" style=" margin-left: 1rem;">
+            </div>
+        </section>
+
+        <section class="AboutCovid">
+            <div class="stats-container">
+                <div class="stats-card">
+                    <div class="stats-card__banner" id="banner">
+                        <svg class="covid-virus" id="covidVirus" viewBox="0 0 152 141"><g fill="none" fill-rule="evenodd"><path d="M134.188 8.957a6.807 6.807 0 11-13.613 0 6.807 6.807 0 0113.613 0zM150.5 79.531c0 9.963-8.077 18.04-18.041 18.04s-18.042-8.077-18.042-18.04c0-9.965 8.078-18.042 18.042-18.042 9.964 0 18.041 8.077 18.041 18.042zM58.873 131.6a7.874 7.874 0 11-15.748 0 7.874 7.874 0 0115.748 0zm-23.145-20.548c0 8.67-7.028 15.699-15.698 15.699-8.67 0-15.699-7.029-15.699-15.699S11.36 95.355 20.03 95.355s15.698 7.028 15.698 15.698zM21.252 17.415a9.626 9.626 0 01-9.626 9.626A9.626 9.626 0 012 17.415a9.626 9.626 0 019.626-9.626 9.626 9.626 0 019.626 9.626z" stroke="#E6DCF0" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/><path class="covid-virus__body" d="M137.548 59.535a10.205 10.205 0 00-4.473-6.366c-1.735-1.097-3.657-1.515-5.274-1.145-2.046.466-3.225 1.77-4.265 2.921-1.025 1.134-1.868 2.068-3.474 2.316-2.965-9.991-9.28-18.662-17.91-24.593.58-1.997 1.73-2.66 3.037-3.414.983-.567 2-1.153 2.64-2.296.76-1.354.846-3.041.243-4.752-.925-2.624-3.26-4.853-6.407-6.117-3.244-1.302-6.702-1.492-9.024-.494-1.302.56-2.237 1.477-2.702 2.652-.704 1.778-.457 3.611-.218 5.384.147 1.095.288 2.148.184 3.09a45.54 45.54 0 00-13.546-2.046c-4.429 0-8.802.633-13.007 1.883-2.196-1.453-1.981-2.681-1.692-4.338.195-1.121.417-2.392-.213-3.652-1.607-3.213-6.552-5.023-12.046-2.49-2.642 1.216-4.627 3.2-5.448 5.44-.578 1.58-.539 3.217.111 4.61.847 1.815 2.342 2.839 3.662 3.743 1.523 1.043 2.415 1.714 2.591 2.971A45.92 45.92 0 0036.634 47.89a4.03 4.03 0 00-.192-.06c-1.786-.508-4.004-.2-5.935.826-1.6.85-3.733 2.569-4.806 5.929-.82 2.568-.59 5.186.632 7.183.964 1.575 2.485 2.639 4.172 2.918.184.03.37.054.56.071a48.566 48.566 0 00-.288 5.502c0 6.757 1.436 13.24 4.272 19.292-1.265.61-2.644.586-4.086.561-1.482-.025-3.014-.05-4.357.692-1.549.857-2.744 2.603-3.196 4.67-.588 2.687.075 5.507 1.867 7.942 1.898 2.579 4.747 4.43 7.435 4.832 1.621.243 3.06-.062 4.16-.88 1.76-1.308 2.54-3.282 3.23-5.023.506-1.283.895-2.21 1.415-2.694 8.694 10.304 21.331 16.19 34.842 16.19 1.545 0 3.095-.078 4.63-.232l-.059.442c-.16 1.202-.31 2.338-.016 3.488.338 1.326 1.307 2.428 2.799 3.187 1.344.684 2.969 1.025 4.69 1.025 1.736 0 3.57-.347 5.311-1.042 2.57-1.026 4.598-2.91 5.562-5.17.723-1.695.786-3.458.177-4.963-.374-.924-.944-1.652-1.585-2.257a46.052 46.052 0 0016.812-15.494 45.056 45.056 0 007.261-24.364c2.545-1.19 4.593-.765 6.578-.352 1.132.235 2.2.457 3.286.359 1.646-.15 3.233-1.115 4.354-2.651 1.575-2.158 2.081-5.176 1.39-8.28"/><path d="M79.893 53.305c-1.272-2.553-1.26-5.283.292-7.092 2.31-2.693 7.16-2.321 10.832.83 3.672 3.15 4.776 7.888 2.465 10.58-1.492 1.739-4.04 2.2-6.649 1.461m-19.712 15.54a7.71 7.71 0 11-6.55 3.642m35.49-4.385c3.604 1.828 7.22.807 9.112 2.839 2.226 2.39 2.33 5.78-.724 9.165-3.053 3.386-7.316 4.14-9.92 2.169-3.14-2.377-2.05-6.115-2.05-6.115M89.481 30.23c3.738-3.232.29-7.89 1.714-11.486 1.1-2.782 5.77-3.087 9.967-1.402 5.007 2.01 6.932 6.386 5.49 8.956-1.362 2.43-5.723 1.713-6.19 8.332M42.665 64.735c-4.62-4.134-7.976-.727-11.94-1.382-2.953-.488-5.114-4.05-3.739-8.359 1.64-5.14 6.406-6.629 9.085-5.866 2.68.762 2.805 5.302 8.821 3.417m46.14 52.01c.234 4.828 5.719 4.941 7.169 8.526 1.122 2.774-.788 6.697-4.988 8.373-5.012 2-10.263.604-10.993-2.25-.69-2.7 1.881-6.16-1.688-11.227" stroke="#E6DCF0" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+                        <div class="stats-card__banner-content">
+                            <h1 class="covid-h1">About Covid-19</h1>
+                            <p class="stats-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus et quas quo quod vel a, quos reprehenderit iusto dolores at omnis voluptatum blanditiis? Deserunt numquam, soluta eum velit sapiente delectus. Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Molestias ipsam aliquam quibusdam exercitationem. Non, est?</p>
+
+                            <a class="covid-resource" href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank">Learn more <i data-feather="external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="stats-card__footer">
+                        <div class="stats-card__footer-content">
+                            <i class="covid-info-icon" data-feather="info"></i>
+                            <div class="stats-card__footer-info">
+                                <h3 class="covid-h3">Think you might have symptoms?</h3>
+                                <p>Those who are infected with COVID-19 may have little to no symptoms. You may not know you have symptoms of COVID-19 because they are similar to a cold or flu.</p>
+                            </div>
+                        </div>
+                        <a class="covid-self-assessment" href="https://covid-19.ontario.ca/self-assessment/" target="_blank">Take a self-assessment</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <script>
             const $body = $('body');
@@ -127,6 +163,24 @@
                     $body.toggleClass('search-open');
                 });
 
+            });
+            const covidVirus = dom('#covidVirus');
+            const banner = dom('#banner');
+            const rect = banner.getBoundingClientRect();
+
+            const moveVirus = function(e) {
+                const transform = `transform: scale(1.4) translate(${(e.x - rect.width) / rect.width * 30}px, ${(e.y - rect.height) / rect.height * -10}px)`;
+                covidVirus.setAttribute('style', transform);
+            }
+
+            function dom(element) {
+                return document.querySelector(element);
+            }
+
+            banner.addEventListener('mousemove', moveVirus);
+
+            banner.addEventListener('mouseleave', function(e) {
+                covidVirus.removeAttribute('style');
             });
         </script>
 
